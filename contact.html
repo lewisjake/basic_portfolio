@@ -1,16 +1,78 @@
-<body>
-        <form action="/my-handling-form-page" method="post">
-            <div>
-              <label for="name">Name:</label> <input type="text" id="name" name="user_name">
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.html">
+        <link rel="stylesheet" href="contact.html">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="basic_portfolio.html">
+        <link rel="stylesheet" href="assets/images/IMG_0940.jpg">
+        <link rel="stylesheet" href="https://www.lipsum.com">
+     </head>
+
+     <body>
+        <header id="top_area">
+            <div class="container">
+                <a href="basic_portfolio.html" id="name_button">Jake Lewis</a>
+                <nav>
+                        <a href="basic_portfolio.html">About</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="index.html">Portfolio</a>
+                    </nav>
             </div>
-            <div>
-              <label for="mail">E-mail:</label> <input type="email" id="mail" name="user_mail">
-            </div>
-            <div>
-              <label for="msg">Message:</label> <textarea id="msg" name="user_message"></textarea>
-            </div>
-            <div class="button">
-              <button type="submit">Send your message</button>
-            </div>
-        </form>
-    </body>
+        </header>
+
+        <hr>
+
+        <div id="contact-container" class="container">
+            <section class="contact-section">
+              <form id="contact-form">
+                <ul>
+                  <li>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"> 
+                  </li>
+                  <li>
+                    <label for="email">E-mail Address</label>
+                    <input type="email" id="email" name="email">
+                  </li>
+                  <li>
+                    <label for="message">Message Me</label>
+                    <textarea name="message" id="message" cols="30" rows="20"></textarea>
+                  </li>
+                </ul>
+                <input type="submit">
+              </form>
+           </section>
+          </div>
+        <hr>
+
+        <footer >
+            <div class="footer">
+                 Copyright ©
+            </div> 
+        </footer>
+
+
+
+
+
+
+
+     </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
